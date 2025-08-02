@@ -5,8 +5,8 @@ import toast from 'react-hot-toast'
 const Login = () => {
 
     const {axios,setToken} = useAppContext()
-    const [email, setEmail] = React.useState('')
-    const [password, setPassword] = React.useState('')
+    const [email, setEmail] = React.useState('akshat@gmail.com')
+    const [password, setPassword] = React.useState('akshat123')
 
     const handleSubmit = async(e) => {
         e.preventDefault(); 
@@ -57,3 +57,4 @@ const Login = () => {
 }
 
 export default Login
+
